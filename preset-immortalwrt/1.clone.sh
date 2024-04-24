@@ -26,8 +26,5 @@ echo "src-link supply $PWD/$SUPPLY_DIR" >> feeds.conf.default
 mkdir $SUPPLY_DIR && cd $SUPPLY_DIR
 git clone --depth 1 https://github.com/jerrykuku/luci-theme-argon.git
 git clone --depth 1 https://github.com/jerrykuku/luci-app-argon-config.git
-git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall-packages.git pw-dependencies
-git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall.git && mv openwrt-passwall/luci-app-passwall ./ && rm -rf openwrt-passwall
-git clone --depth 1 https://github.com/xiaorouji/openwrt-passwall2.git && mv openwrt-passwall2/luci-app-passwall2 ./ && rm -rf openwrt-passwall2
-git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky.git lucky
-git clone --depth 1 https://github.com/sirpdboy/luci-app-ddns-go.git ddns-go
+git clone --depth 1 https://github.com/sirpdboy/luci-app-lucky.git
+
